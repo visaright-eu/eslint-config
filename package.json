@@ -1,0 +1,28 @@
+{
+  "name": "@visaright/eslint-config",
+  "version": "1.0.1",
+  "description": "Shareable eslint config used across the company",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visaright-eu/eslint-config.git"
+  },
+  "author": "Anton puko",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "7.x.x",
+    "prettier": "2.x.x"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.16.0",
+    "@typescript-eslint/eslint-plugin": "3.5.0",
+    "@typescript-eslint/parser": "3.5.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "@visaright/prettier-config": "1.0.0"
+  },
+  "prettier": "@visaright/prettier-config"
+}
