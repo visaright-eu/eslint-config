@@ -1,2 +1,2 @@
 # eslint-config
-shareable es-lint configs used across the company
+shareable eslint configs used across the company
