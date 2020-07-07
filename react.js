@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['react', 'react-hooks', 'import', 'prettier'],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
@@ -12,7 +13,6 @@ module.exports = {
         'plugin:import/warnings',
         'plugin:prettier/recommended',
         'plugin:react/recommended',
-        'plugin:react-hooks/recommended',
         'prettier',
         'prettier/@typescript-eslint',
         'prettier/react',
@@ -36,6 +36,8 @@ module.exports = {
         'import/order': 1,
         'no-async-promise-executor': 0,
         'no-shadow': 1,
+        'react-hooks/exhaustive-deps': 1,
+        'react-hooks/rules-of-hooks': 2,
         'react/display-name': 0,
         'react/no-unescaped-entities': 0,
         'react/prop-types': 0,
