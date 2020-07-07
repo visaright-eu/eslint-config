@@ -1,22 +1,33 @@
 module.exports = {
-  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'prettier'],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
+      plugins: [
+        '@typescript-eslint',
+        'react',
+        'react-hooks',
+        'import',
+        'prettier',
+      ],
       parser: '@typescript-eslint/parser',
       extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
-        'plugin:import/errors',
-        'plugin:import/typescript',
-        'plugin:import/warnings',
-        'plugin:prettier/recommended',
         'plugin:react/recommended',
+        'plugin:import/errors',
+        'plugin:import/warnings',
+        'plugin:import/typescript',
+        'plugin:prettier/recommended',
         'prettier',
         'prettier/@typescript-eslint',
         'prettier/react',
       ],
+      settings: {
+        react: {
+          version: 'detect',
+        },
+      },
       rules: {
         '@typescript-eslint/camelcase': 0,
         '@typescript-eslint/explicit-function-return-type': 0,
