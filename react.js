@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react', 'react-hooks', 'import', 'prettier'],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'prettier'],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
