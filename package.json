@@ -1,6 +1,6 @@
 {
   "name": "@visaright/eslint-config",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "Shareable eslint config used across the company",
   "repository": {
     "type": "git",

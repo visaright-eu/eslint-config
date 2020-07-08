@@ -47,7 +47,7 @@ module.exports = {
         'import/order': 1,
         'no-async-promise-executor': 0,
         'no-shadow': 1,
-        'react-hooks/exhaustive-deps': 1,
+        'react-hooks/exhaustive-deps': 0,
         'react-hooks/rules-of-hooks': 2,
         'react/display-name': 0,
         'react/no-unescaped-entities': 0,
