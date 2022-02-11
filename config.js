@@ -18,7 +18,7 @@ module.exports = {
           version: 'detect',
         },
       },
-      files: ['**/*.ts'],
+      files: ['**/*.{ts,tsx}'],
       rules: {
         '@typescript-eslint/camelcase': 0,
         '@typescript-eslint/explicit-function-return-type': 0,
