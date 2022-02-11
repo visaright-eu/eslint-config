@@ -8,6 +8,7 @@
   },
   "author": "Anton puko",
   "license": "ISC",
+  "main": "config.js",
   "peerDependencies": {
     "eslint": "7.x.x",
     "prettier": "2.x.x"
