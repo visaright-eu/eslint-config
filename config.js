@@ -1,7 +1,7 @@
 module.exports = {
   overrides: [
     {
-      plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import'],
+      plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'sort-keys-fix'],
       parser: '@typescript-eslint/parser',
       extends: [
         'eslint:recommended',
@@ -45,7 +45,7 @@ module.exports = {
         'no-shadow': 0,
         '@typescript-eslint/no-shadow': 1,
         'require-atomic-updates': 0,
-        'sort-keys': 1,
+        'sort-keys-fix/sort-keys-fix': 1,
         'prettier/prettier': 1,
         '@typescript-eslint/no-misused-promises': 0,
         'react-hooks/exhaustive-deps': 0,
