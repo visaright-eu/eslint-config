@@ -1,23 +1,17 @@
 module.exports = {
   overrides: [
     {
-      plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'sort-keys-fix'],
+      plugins: ['@typescript-eslint', 'import', 'sort-keys-fix'],
       parser: '@typescript-eslint/parser',
       extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
-        'plugin:react/recommended',
         'plugin:import/errors',
         'plugin:import/warnings',
         'plugin:import/typescript',
         'plugin:prettier/recommended',
       ],
-      settings: {
-        react: {
-          version: 'detect',
-        },
-      },
       files: ['**/*.{ts,tsx}'],
       rules: {
         '@typescript-eslint/camelcase': 0,
@@ -48,12 +42,6 @@ module.exports = {
         'sort-keys-fix/sort-keys-fix': 1,
         'prettier/prettier': 1,
         '@typescript-eslint/no-misused-promises': 0,
-        'react-hooks/exhaustive-deps': 0,
-        'react-hooks/rules-of-hooks': 2,
-        'react/display-name': 0,
-        'react/no-unescaped-entities': 0,
-        'react/prop-types': 0,
-        'react/react-in-jsx-scope': 0,
       },
     },
   ],
