@@ -21,7 +21,7 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': 0,
         'no-unused-vars': 0,
         '@typescript-eslint/no-unused-vars': [
-          2,
+          1,
           {
             args: 'none',
           },
