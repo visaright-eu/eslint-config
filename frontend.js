@@ -2,9 +2,7 @@ module.exports = {
   overrides: [
     {
       plugins: ['react', 'react-hooks'],
-      extends: [
-        'plugin:react/recommended',
-      ],
+      extends: ['plugin:react/recommended'],
       settings: {
         react: {
           version: 'detect',

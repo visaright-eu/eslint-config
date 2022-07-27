@@ -1,6 +1,6 @@
 {
   "name": "@visaright/eslint-config",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "Shareable eslint config used across the company",
   "repository": {
     "type": "git",
@@ -10,23 +10,23 @@
   "license": "ISC",
   "main": "config.js",
   "peerDependencies": {
-    "eslint": "7.x.x",
+    "eslint": "8.x.x",
     "prettier": "2.x.x"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.22.1",
-    "@typescript-eslint/parser": "4.22.1",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-prettier": "3.4.0",
-    "eslint-plugin-react": "7.23.2",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "typescript": "4.2.4"
+    "@typescript-eslint/eslint-plugin": "5.31.0",
+    "@typescript-eslint/parser": "5.31.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "typescript": "4.7.4"
   },
   "devDependencies": {
     "@visaright/prettier-config": "1.0.0",
-    "prettier": "2.2.1"
+    "prettier": "2.7.1"
   },
   "prettier": "@visaright/prettier-config"
 }
